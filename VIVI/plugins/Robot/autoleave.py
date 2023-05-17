@@ -2,9 +2,9 @@ import asyncio
 from datetime import datetime
 
 import config
-from VIVI import app
-from VIVI.core.call import VIV, autoend
-from VIVI.utils.database import (get_client, is_active_chat,
+from VelionaMusicBot import app
+from VelionaMusicBot.core.call import VIV, autoend
+from VelionaMusicBot.utils.database import (get_client, is_active_chat,
                                        is_autoend)
 
 
@@ -28,7 +28,7 @@ async def auto_leave():
                             chat_id = i.chat.id
                             if (
                                 chat_id != config.LOG_GROUP_ID
-                                and chat_id != -1001585566410
+                                and chat_id != -000
                             ):
                                 if not await is_active_chat(chat_id):
                                     try:
