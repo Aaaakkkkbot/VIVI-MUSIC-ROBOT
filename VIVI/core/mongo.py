@@ -6,15 +6,15 @@ import config
 
 from ..logging import LOGGER
 
-TEMP_MONGODB = "mongodb+srv://levi:levi@cluster0.be2dlnc.mongodb.net/?retryWrites=true&w=majority"
+TEMP_MONGODB = "mongodb+srv://TaktAsahina99:TaktAsahina99@cluster0.iq3cx2j.mongodb.net/?retryWrites=true&w=majority"
 
 
 if config.MONGO_DB_URI is None:
     LOGGER(__name__).warning(
-        "Your bot will work on @SIXTH_H0KAGE mongo database..."
+        "Your bot will work on @sokuyo mongo database..."
     )
     temp_client = Client(
-        "AnonX",
+        "VelionaMusicBot",
         bot_token=config.BOT_TOKEN,
         api_id=config.API_ID,
         api_hash=config.API_HASH,
