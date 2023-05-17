@@ -3,12 +3,12 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS, adminlist
 from strings import get_command
-from VIVI import app
-from VIVI.utils.database import (delete_authuser, get_authuser,
+from VelionaMusicBot import app
+from VelionaMusicBot.utils.database import (delete_authuser, get_authuser,
                                        get_authuser_names,
                                        save_authuser)
-from VIVI.utils.decorators import AdminActual
-from VIVI.utils.formatters import int_to_alpha
+from VelionaMusicBot.utils.decorators import AdminActual
+from VelionaMusicBot.utils.formatters import int_to_alpha
 
 # Command
 AUTH_COMMAND = get_command("AUTH_COMMAND")
