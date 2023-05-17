@@ -2,10 +2,10 @@ from pyrogram import filters
 
 import config
 from strings import get_command
-from VIVI import app
-from VIVI.misc import SUDOERS
-from VIVI.utils.database import autoend_off, autoend_on
-from VIVI.utils.decorators.language import language
+from VelionaMusicBot import app
+from VelionaMusicBot.misc import SUDOERS
+from VelionaMusicBot.utils.database import autoend_off, autoend_on
+from VelionaMusicBot.utils.decorators.language import language
 
 # Commands
 AUTOEND_COMMAND = get_command("AUTOEND_COMMAND")
