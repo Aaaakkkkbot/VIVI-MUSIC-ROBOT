@@ -3,10 +3,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from VIVI import app
-from VIVI.utils.database.memorydatabase import (get_loop,
+from VelionaMusicBot import app
+from VelionaMusicBot.utils.database.memorydatabase import (get_loop,
                                                       set_loop)
-from VIVI.utils.decorators import AdminRightsCheck
+from VelionaMusicBot.utils.decorators import AdminRightsCheck
 
 # Commands
 LOOP_COMMAND = get_command("LOOP_COMMAND")
