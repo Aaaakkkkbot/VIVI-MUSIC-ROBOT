@@ -8,7 +8,7 @@ from VelionaMusicBot import app
 from VelionaMusicBot.utils.database import (get_global_tops,
                                        get_particulars, get_userss)
 from VelionaMusicBot.utils.decorators.language import languageCB
-from VIVI.utils.inline.playlist import (botplaylist_markup,
+from VelionaMusicBot.utils.inline.playlist import (botplaylist_markup,
                                               failed_top_markup,
                                               top_play_markup)
 from VelionaMusicBot.utils.stream.stream import stream
