@@ -2,7 +2,7 @@ import time
 
 import psutil
 
-from VIVI.misc import _boot_
+from VelionaMusicBot.misc import _boot_
 
 from .formatters import get_readable_time
 
