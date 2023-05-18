@@ -5,9 +5,9 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from VIVI import app
-from VIVI.misc import db
-from VIVI.utils.decorators import AdminRightsCheck
+from VelionaMusicBot import app
+from VelionaMusicBot.misc import db
+from VelionaMusicBot.utils.decorators import AdminRightsCheck
 
 # Commands
 SHUFFLE_COMMAND = get_command("SHUFFLE_COMMAND")
