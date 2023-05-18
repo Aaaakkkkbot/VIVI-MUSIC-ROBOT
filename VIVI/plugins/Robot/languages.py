@@ -4,9 +4,9 @@ from pyrogram.types import InlineKeyboardButton, Message
 
 from config import BANNED_USERS
 from strings import get_command, get_string
-from VIVI import app
-from VIVI.utils.database import get_lang, set_lang
-from VIVI.utils.decorators import (ActualAdminCB, language,
+from VelionaMusicBot import app
+from VelionaMusicBot.utils.database import get_lang, set_lang
+from VelionaMusicBot.utils.decorators import (ActualAdminCB, language,
                                          languageCB)
 
 # Languages Available
@@ -16,7 +16,7 @@ def lanuages_keyboard(_):
     keyboard = InlineKeyboard(row_width=2)
     keyboard.row(
         InlineKeyboardButton(
-            text="🇦🇺 ᴇɴɢʟɪsʜ 🇦🇺",
+            text="ᴇɴɢʟɪsʜ",
             callback_data=f"languages:en",
         ),
     )
