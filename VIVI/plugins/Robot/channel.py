@@ -3,9 +3,9 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from VIVI import app
-from VIVI.utils.database import set_cmode
-from VIVI.utils.decorators.admins import AdminActual
+from VelionaMusicBot import app
+from VelionaMusicBot.utils.database import set_cmode
+from VelionaMusicBot.utils.decorators.admins import AdminActual
 
 ### Multi-Lang Commands
 CHANNELPLAY_COMMAND = get_command("CHANNELPLAY_COMMAND")
