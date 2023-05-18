@@ -1,7 +1,7 @@
 import random
 
-from VIVI import userbot
-from VIVI.core.mongo import mongodb
+from VelionaMusicBot import userbot
+from VelionaMusicBot.core.mongo import mongodb
 
 db = mongodb.assistants
 
