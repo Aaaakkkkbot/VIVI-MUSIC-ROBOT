@@ -4,10 +4,10 @@ from pyrogram import filters
 
 import config
 from strings import get_command
-from VIVI import app
-from VIVI.misc import SUDOERS
-from VIVI.utils.database.memorydatabase import get_video_limit
-from VIVI.utils.formatters import convert_bytes
+from VelionaMusicBot import app
+from VelionaMusicBot.misc import SUDOERS
+from VelionaMusicBot.utils.database.memorydatabase import get_video_limit
+from VelionaMusicBot.utils.formatters import convert_bytes
 
 VARS_COMMAND = get_command("VARS_COMMAND")
 
