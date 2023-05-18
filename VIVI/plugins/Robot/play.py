@@ -10,21 +10,21 @@ from pytgcalls.exceptions import NoActiveGroupCall
 import config
 from config import BANNED_USERS, lyrical
 from strings import get_command
-from VIVI import (Apple, Resso, SoundCloud, Spotify, Telegram,
+from VelionaMusicBot import (Apple, Resso, SoundCloud, Spotify, Telegram,
                         YouTube, app)
-from VIVI.core.call import VIV
-from VIVI.utils import seconds_to_min, time_to_seconds
-from VIVI.utils.channelplay import get_channeplayCB
-from VIVI.utils.database import is_video_allowed
-from VIVI.utils.decorators.language import languageCB
-from VIVI.utils.decorators.play import PlayWrapper
-from VIVI.utils.formatters import formats
-from VIVI.utils.inline.play import (livestream_markup,
+from VelionaMusicBot.core.call import VIV
+from VelionaMusicBot.utils import seconds_to_min, time_to_seconds
+from VelionaMusicBot.utils.channelplay import get_channeplayCB
+from VelionaMusicBot.utils.database import is_video_allowed
+from VelionaMusicBot.utils.decorators.language import languageCB
+from VelionaMusicBot.utils.decorators.play import PlayWrapper
+from VelionaMusicBot.utils.formatters import formats
+from VelionaMusicBot.utils.inline.play import (livestream_markup,
                                           playlist_markup,
                                           slider_markup, track_markup)
-from VIVI.utils.inline.playlist import botplaylist_markup
-from VIVI.utils.logger import play_logs
-from VIVI.utils.stream.stream import stream
+from VelionaMusicBot.utils.inline.playlist import botplaylist_markup
+from VelionaMusicBot.utils.logger import play_logs
+from VelionaMusicBot.utils.stream.stream import stream
 
 # Command
 PLAY_COMMAND = get_command("PLAY_COMMAND")
