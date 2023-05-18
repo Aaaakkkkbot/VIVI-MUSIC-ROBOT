@@ -3,10 +3,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from VIVI import YouTube, app
-from VIVI.core.call import VIV
-from VIVI.misc import db
-from VIVI.utils import AdminRightsCheck, seconds_to_min
+from VelionaMusicBot import YouTube, app
+from VelionaMusicBot.core.call import VIV
+from VelionaMusicBot.misc import db
+from VelionaMusicBot.utils import AdminRightsCheck, seconds_to_min
 
 # Commands
 SEEK_COMMAND = get_command("SEEK_COMMAND")
