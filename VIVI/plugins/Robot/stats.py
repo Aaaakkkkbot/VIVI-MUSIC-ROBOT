@@ -21,8 +21,8 @@ from VelionaMusicBot.utils.database import (get_global_tops,
                                        get_served_chats,
                                        get_served_users, get_sudoers,
                                        get_top_chats, get_topp_users)
-from VIVI.utils.decorators.language import language, languageCB
-from VIVI.utils.inline.stats import (back_stats_buttons,
+from VelionaMusicBot.utils.decorators.language import language, languageCB
+from VelionaMusicBot.utils.inline.stats import (back_stats_buttons,
                                            back_stats_markup,
                                            get_stats_markup,
                                            overallback_stats_markup,
