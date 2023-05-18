@@ -11,8 +11,8 @@ from pyrogram import filters
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 
-from VIVI import app
-from VIVI.misc import SUDOERS
+from VelionaMusicBot import app
+from VelionaMusicBot.misc import SUDOERS
 
 
 async def aexec(code, client, message):
