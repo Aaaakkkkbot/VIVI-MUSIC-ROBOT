@@ -22,13 +22,13 @@ from VelionaMusicBot.utils.database import (add_nonadmin_chat,
                                        save_audio_bitrate,
                                        save_video_bitrate,
                                        set_playmode, set_playtype)
-from VIVI.utils.decorators.admins import ActualAdminCB
-from VIVI.utils.decorators.language import language, languageCB
-from VIVI.utils.inline.settings import (
+from VelionaMusicBot.utils.decorators.admins import ActualAdminCB
+from VelionaMusicBot.utils.decorators.language import language, languageCB
+from VelionaMusicBot.utils.inline.settings import (
     audio_quality_markup, auth_users_markup,
     cleanmode_settings_markup, playmode_users_markup, setting_markup,
     video_quality_markup)
-from VIVI.utils.inline.start import private_panel
+from VelionaMusicBot.utils.inline.start import private_panel
 
 ### Command
 SETTINGS_COMMAND = get_command("SETTINGS_COMMAND")
