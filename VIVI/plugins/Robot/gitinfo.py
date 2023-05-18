@@ -1,6 +1,6 @@
 import aiohttp
 from pyrogram import filters
-from VIVI import app
+from VelionaMusicBot import app
 
 
 @app.on_message(filters.command(["github", "git"]))
