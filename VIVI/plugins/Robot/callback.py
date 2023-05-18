@@ -6,20 +6,20 @@ from pyrogram.types import CallbackQuery, InlineKeyboardMarkup
 from config import (AUTO_DOWNLOADS_CLEAR, BANNED_USERS,
                     SOUNCLOUD_IMG_URL, STREAM_IMG_URL,
                     TELEGRAM_AUDIO_URL, TELEGRAM_VIDEO_URL, adminlist)
-from VIVI import YouTube, app
-from VIVI.core.call import VIV
-from VIVI.misc import SUDOERS, db
-from VIVI.utils.database import (is_active_chat,
+from VelionaMusicBot import YouTube, app
+from VelionaMusicBot.core.call import VIV
+from VelionaMusicBot.misc import SUDOERS, db
+from VelionaMusicBot.utils.database import (is_active_chat,
                                        is_music_playing, set_loop,
                                        is_nonadmin_chat, music_off,
                                        music_on)
-from VIVI.utils.decorators.language import languageCB
-from VIVI.utils.formatters import seconds_to_min
-from VIVI.utils.inline.play import (panel_markup_1,
+from VelionaMusicBot.utils.decorators.language import languageCB
+from VelionaMusicBot.utils.formatters import seconds_to_min
+from VelionaMusicBot.utils.inline.play import (panel_markup_1,
                                           stream_markup,
                                           telegram_markup)
-from VIVI.utils.stream.autoclear import auto_clean
-from VIVI.utils.thumbnails import gen_thumb
+from VelionaMusicBot.utils.stream.autoclear import auto_clean
+from VelionaMusicBot.utils.thumbnails import gen_thumb
 
 wrong = {}
 
