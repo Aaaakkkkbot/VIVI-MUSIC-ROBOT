@@ -3,14 +3,14 @@ import asyncio
 from pyrogram.types import InlineKeyboardMarkup
 
 from strings import get_string
-from VIVI.misc import db
-from VIVI.utils.database import (get_active_chats, get_lang,
+from VelionaMusicBot.misc import db
+from VelionaMusicBot.utils.database import (get_active_chats, get_lang,
                                        is_music_playing)
-from VIVI.utils.formatters import seconds_to_min
-from VIVI.utils.inline import (stream_markup_timer,
+from VelionaMusicBot.utils.formatters import seconds_to_min
+from VelionaMusicBot.utils.inline import (stream_markup_timer,
                                      telegram_markup_timer)
 
-from VIVI.plugins.Robot.callback import wrong
+from VelionaMusicBot.plugins.Robot.callback import wrong
 
 checker = {}
 
