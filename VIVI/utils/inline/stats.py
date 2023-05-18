@@ -1,6 +1,6 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from VIVI import app
+from VelionaMusicBot import app
 
 
 def back_stats_markup(_):
