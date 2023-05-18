@@ -3,12 +3,12 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from VIVI import app
-from VIVI.misc import SUDOERS
-from VIVI.utils.database import (blacklist_chat,
+from VelionaMusicBot import app
+from VelionaMusicBot.misc import SUDOERS
+from VelionaMusicBot.utils.database import (blacklist_chat,
                                        blacklisted_chats,
                                        whitelist_chat)
-from VIVI.utils.decorators.language import language
+from VelionaMusicBot.utils.decorators.language import language
 
 # Commands
 
