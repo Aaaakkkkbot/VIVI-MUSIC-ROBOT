@@ -1,5 +1,5 @@
-from VIVI import app
-from VIVI.utils.database import get_cmode
+from VelionaMusicBot import app
+from VelionaMusicBot.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):
