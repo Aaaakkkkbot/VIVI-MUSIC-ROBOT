@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from VIVI import app
+from VelionaMusicBot import app
 
 def get_id(msg: Message):
     if msg.media:
