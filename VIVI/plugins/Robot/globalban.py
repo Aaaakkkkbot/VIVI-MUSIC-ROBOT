@@ -7,10 +7,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from VIVI import app
-from VIVI.misc import SUDOERS
-from VIVI.utils import get_readable_time
-from VIVI.utils.database import (add_banned_user,
+from VelionaMusicBot import app
+from VelionaMusicBot.misc import SUDOERS
+from VelionaMusicBot.utils import get_readable_time
+from VelionaMusicBot.utils.database import (add_banned_user,
                                        get_banned_count,
                                        get_banned_users,
                                        get_served_chats,
