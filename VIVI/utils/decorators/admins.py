@@ -2,9 +2,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import adminlist
 from strings import get_string
-from VIVI import app
-from VIVI.misc import SUDOERS
-from VIVI.utils.database import (get_authuser_names, get_cmode,
+from VelionaMusicBot import app
+from VelionaMusicBot.misc import SUDOERS
+from VelionaMusicBot.utils.database import (get_authuser_names, get_cmode,
                                        get_lang, is_active_chat,
                                        is_commanddelete_on,
                                        is_maintenance,
