@@ -1,7 +1,4 @@
-#ɪғ ʏᴏᴜ ғᴏᴜɴᴅ ɪɴ ᴀɴʏ ᴇʀʀᴏʀs ᴛʜᴀɴ ᴘʟᴢ ᴄᴏɴᴛᴀᴄᴛ @SIXTH_H0KAGE
-#sᴜᴘᴘᴏʀᴛ :- @kakashi_bots_support
-#ᴜᴘᴅᴀᴛᴇs :- @kakashi_bots_updates
-#ɴᴇᴛᴡᴏʀᴋ :- @Otaku_Binge
+
 
 import asyncio
 import importlib
@@ -12,10 +9,10 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from config import BANNED_USERS
-from VIVI import LOGGER, app, userbot
-from VIVI.core.call import VIV
-from VIVI.plugins import ALL_MODULES
-from VIVI.utils.database import get_banned_users, get_gbanned
+from VelionaMusicBot import LOGGER, app, userbot
+from VelionaMusicBot.core.call import VIV
+from VelionaMusicBot.plugins import ALL_MODULES
+from VelionaMusicBot.utils.database import get_banned_users, get_gbanned
 
 loop = asyncio.get_event_loop()
 
@@ -28,16 +25,16 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER("VIVI").error(
-            "WTF Baby ! Atleast add a pyrogram string, How Cheap..."
+        LOGGER("VelionaMusicBot").error(
+            "Blehh! Atleast add a pyrogram string..."
         )
         return
     if (
         not config.SPOTIFY_CLIENT_ID
         and not config.SPOTIFY_CLIENT_SECRET
     ):
-        LOGGER("VIVI").warning(
-            "Spotify Client Id & Secret not added, padh le bc abhi bhi time h ya fir gamd dede @SIXTH_H0KAGE ladki ho tabhi dena mai gay nhi ."
+        LOGGER("VelionaMusicBot").warning(
+            "Spotify Client Id & Secret not added."
         )
     try:
         users = await get_gbanned()
@@ -50,25 +47,25 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("VIVI.plugins" + all_module)
-    LOGGER("VIVI.plugins").info(
+        importlib.import_module("VelionaMusicBot.plugins" + all_module)
+    LOGGER("VelionaMusicBot.plugins").info(
         "Necessary Modules Imported Successfully."
     )
     await userbot.start()
-    await VIV.start()
+    await VelionaMusicBot.start()
     try:
-        await VIV.stream_call(
-            "https://telegra.ph/file/03f15a4e3147e84ea3bb6.jpg"
+        await VelionaMusicBot.stream_call(
+            "https://te.legra.ph/file/0c718de5c84a1940f0b48.jpg"
         )
     except NoActiveGroupCall:
-        LOGGER("VIVI").error(
-            "[ERROR] - \n\nHey Baby, firstly open telegram and turn on voice chat in Logger Group else fu*k off. If you ever ended voice chat in log group i will stop working and users will fu*k you up."
+        LOGGER("VelionaMusicBot").error(
+            "[ERROR] - #."
         )
         sys.exit()
     except:
         pass
     await VIV.decorators()
-    LOGGER("VIVI").info("Music Bot Started Successfully, ENJOY PEEPS")
+    LOGGER("VelionaMusicBot").info("Music Bot Started Successfully, ENJOY PEEPS")
     await idle()
 
 
