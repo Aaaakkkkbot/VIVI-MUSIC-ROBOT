@@ -5,10 +5,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS, MUSIC_BOT_NAME, PING_IMG_URL
 from strings import get_command
-from VIVI import app
-from VIVI.core.call import VIV
-from VIVI.utils import bot_sys_stats
-from VIVI.utils.decorators.language import language
+from VelionaMusicBot import app
+from VelionaMusicBot.core.call import VIV
+from VelionaMusicBot.utils import bot_sys_stats
+from VelionaMusicBot.utils.decorators.language import language
 
 ### Commands
 PING_COMMAND = get_command("PING_COMMAND")
