@@ -15,13 +15,13 @@ from pyrogram import filters
 
 import config
 from strings import get_command
-from VIVI import app
-from VIVI.misc import HAPP, SUDOERS, XCB
-from VIVI.utils.database import (get_active_chats,
+from VelionaMusicBot import app
+from VelionaMusicBot.misc import HAPP, SUDOERS, XCB
+from VelionaMusicBot.utils.database import (get_active_chats,
                                        remove_active_chat,
                                        remove_active_video_chat)
-from VIVI.utils.decorators.language import language
-from VIVI.utils.pastebin import VIVbin
+from VelionaMusicBot.utils.decorators.language import language
+from VelionaMusicBot.utils.pastebin import VIVbin
 
 # Commands
 GETLOG_COMMAND = get_command("GETLOG_COMMAND")
