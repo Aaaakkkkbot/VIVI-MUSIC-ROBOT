@@ -9,14 +9,14 @@ from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 import config
 from config import BANNED_USERS
 from strings import get_command
-from VIVI import app
-from VIVI.misc import db
-from VIVI.utils import (VIVbin, get_channeplayCB,
+from VelionaMusicBot import app
+from VelionaMusicBot.misc import db
+from VelionaMusicBot.utils import (VIVbin, get_channeplayCB,
                               seconds_to_min)
-from VIVI.utils.database import (get_cmode, is_active_chat,
+from VelionaMusicBot.utils.database import (get_cmode, is_active_chat,
                                        is_music_playing)
-from VIVI.utils.decorators.language import language, languageCB
-from VIVI.utils.inline import queue_back_markup, queue_markup
+from VelionaMusicBot.utils.decorators.language import language, languageCB
+from VelionaMusicBot.utils.inline import queue_back_markup, queue_markup
 
 ###Commands
 QUEUE_COMMAND = get_command("QUEUE_COMMAND")
