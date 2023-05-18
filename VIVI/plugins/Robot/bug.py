@@ -8,12 +8,12 @@ from pyrogram.types import (
     Message,
 )
 
-from VIVI import app as Client
+from VelionaMusicBot import app as Client
 from config import (
     OWNER_ID as owner_id,
 )
 
-SUPPORT = "WoFBotsSupport"
+SUPPORT = "BotsXSupport"
 
 def content(msg: Message) -> [None, str]:
     text_to_return = msg.text
@@ -42,10 +42,10 @@ async def bug(_, msg: Message):
     datetimes_fmt = "%d-%m-%Y"
     datetimes = datetime.utcnow().strftime(datetimes_fmt)
 
-    thumb = "https://telegra.ph/file/2c593960e19154d2960d1.jpg"
+    thumb = "https://telegra.ph/file/ccce2f6bff9a1b0dc3818.jpg"
     
     bug_report = f"""
-**#ʙᴜɢ :** **@HSSLevii**
+**#ʙᴜɢ :** **@Haruki_Shiga_16**
 
 **ʀᴇᴩᴏʀᴛᴇᴅ ʙʏ :** **{mention}**
 **ᴜsᴇʀ ɪᴅ :** **{user_id}**
@@ -63,12 +63,12 @@ async def bug(_, msg: Message):
     if user_id == owner_id:
         if bugs:
             await msg.reply_text(
-                "<b>» ᴀʀᴇ ʏᴏᴜ ᴄᴏᴍᴇᴅʏ ᴍᴇ 🤣, ʏᴏᴜ'ʀᴇ ᴛʜᴇ ᴏᴡɴᴇʀ ᴏғ ᴛʜᴇ ʙᴏᴛ.</b>",
+                "<b>»ʙʀᴜʜ, ʏᴏᴜ'ʀᴇ ᴛʜᴇ ᴏᴡɴᴇʀ ᴏғ ᴛʜᴇ ʙᴏᴛ.</b>",
             )
             return
         else:
             await msg.reply_text(
-                "ᴄʜᴜᴍᴛɪʏᴀ ᴏᴡɴᴇʀ!"
+                "ᴏᴡɴᴇʀ!"
             )
     elif user_id != owner_id:
         if bugs:
