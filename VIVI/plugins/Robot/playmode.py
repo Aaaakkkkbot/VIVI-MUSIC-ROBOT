@@ -3,11 +3,11 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS
 from strings import get_command
-from VIVI import app
-from VIVI.utils.database import (get_playmode, get_playtype,
+from VelionaMusicBot import app
+from VelionaMusicBot.utils.database import (get_playmode, get_playtype,
                                        is_nonadmin_chat)
-from VIVI.utils.decorators import language
-from VIVI.utils.inline.settings import playmode_users_markup
+from VelionaMusicBot.utils.decorators import language
+from VelionaMusicBot.utils.inline.settings import playmode_users_markup
 
 ### Commands
 PLAYMODE_COMMAND = get_command("PLAYMODE_COMMAND")
