@@ -1,10 +1,10 @@
 from pyrogram import filters
 
 from config import BANNED_USERS
-from VIVI import YouTube, app
-from VIVI.utils.channelplay import get_channeplayCB
-from VIVI.utils.decorators.language import languageCB
-from VIVI.utils.stream.stream import stream
+from VelionaMusicBot import YouTube, app
+from VelionaMusicBot.utils.channelplay import get_channeplayCB
+from VelionaMusicBot.utils.decorators.language import languageCB
+from VelionaMusicBot.utils.stream.stream import stream
 
 
 @app.on_callback_query(filters.regex("LiveStream") & ~BANNED_USERS)
