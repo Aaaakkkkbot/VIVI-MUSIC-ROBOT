@@ -3,9 +3,9 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS, MONGO_DB_URI, OWNER_ID, MUSIC_BOT_NAME
 from strings import get_command
-from VIVI import app
-from VIVI.misc import SUDOERS
-from VIVI.utils.database import add_sudo, remove_sudo
+from VelionaMusicBot import app
+from VelionaMusicBot.misc import SUDOERS
+from VelionaMusicBot.utils.database import add_sudo, remove_sudo
 from VIVI.utils.decorators.language import language
 
 # Command
