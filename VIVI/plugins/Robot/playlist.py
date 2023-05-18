@@ -8,16 +8,16 @@ from pyrogram.types import (InlineKeyboardButton,
 
 from config import BANNED_USERS, SERVER_PLAYLIST_LIMIT
 from strings import get_command
-from VIVI import Carbon, YouTube, app
-from VIVI.utils.database import (delete_playlist, get_playlist,
+from VelionaMusicBot import Carbon, YouTube, app
+from VelionaMusicBot.utils.database import (delete_playlist, get_playlist,
                                        get_playlist_names,
                                        save_playlist)
-from VIVI.utils.decorators.language import language, languageCB
-from VIVI.utils.inline.playlist import (botplaylist_markup,
+from VelionaMusicBot.utils.decorators.language import language, languageCB
+from VelionaMusicBot.utils.inline.playlist import (botplaylist_markup,
                                               get_playlist_markup,
                                               warning_markup)
-from VIVI.utils.pastebin import VIVbin
-from VIVI.utils.stream.stream import stream
+from VelionaMusicBot.utils.pastebin import VIVbin
+from VelionaMusicBot.utils.stream.stream import stream
 
 # Command
 PLAYLIST_COMMAND = get_command("PLAYLIST_COMMAND")
