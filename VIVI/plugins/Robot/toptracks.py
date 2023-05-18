@@ -4,14 +4,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup
 
 from config import BANNED_USERS
-from VIVI import app
-from VIVI.utils.database import (get_global_tops,
+from VelionaMusicBot import app
+from VelionaMusicBot.utils.database import (get_global_tops,
                                        get_particulars, get_userss)
-from VIVI.utils.decorators.language import languageCB
+from VelionaMusicBot.utils.decorators.language import languageCB
 from VIVI.utils.inline.playlist import (botplaylist_markup,
                                               failed_top_markup,
                                               top_play_markup)
-from VIVI.utils.stream.stream import stream
+from VelionaMusicBot.utils.stream.stream import stream
 
 loop = asyncio.get_running_loop()
 
