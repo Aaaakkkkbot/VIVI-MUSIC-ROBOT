@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from VIVI import app
-from VIVI.utils.errors import capture_err
+from VelionaMusicBot import app
+from VelionaMusicBot.utils.errors import capture_err
 
 
 @app.on_message(filters.command("webss"))
