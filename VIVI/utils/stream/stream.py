@@ -5,20 +5,20 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from VIVI import Carbon, YouTube, app
-from VIVI.core.call import VIV
-from VIVI.misc import db
-from VIVI.utils.database import (add_active_chat,
+from VelionaMusicBot import Carbon, YouTube, app
+from VelionaMusicBot.core.call import VIV
+from VelionaMusicBot.misc import db
+from VelionaMusicBot.utils.database import (add_active_chat,
                                        add_active_video_chat,
                                        is_active_chat,
                                        is_video_allowed, music_on)
-from VIVI.utils.exceptions import AssistantErr
-from VIVI.utils.inline.play import (stream_markup,
+from VelionaMusicBot.utils.exceptions import AssistantErr
+from VelionaMusicBot.utils.inline.play import (stream_markup,
                                           telegram_markup)
-from VIVI.utils.inline.playlist import close_markup
-from VIVI.utils.pastebin import VIVbin
-from VIVI.utils.stream.queue import put_queue, put_queue_index
-from VIVI.utils.thumbnails import gen_thumb
+from VelionaMusicBot.utils.inline.playlist import close_markup
+from VelionaMusicBot.utils.pastebin import VIVbin
+from VelionaMusicBot.utils.stream.queue import put_queue, put_queue_index
+from VelionaMusicBot.utils.thumbnails import gen_thumb
 
 
 async def stream(
