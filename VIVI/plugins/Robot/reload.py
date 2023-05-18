@@ -5,13 +5,13 @@ from pyrogram.types import CallbackQuery, Message
 
 from config import BANNED_USERS, MUSIC_BOT_NAME, adminlist, lyrical
 from strings import get_command
-from VIVI import app
-from VIVI.core.call import VIV
-from VIVI.misc import db
-from VIVI.utils.database import get_authuser_names, get_cmode
-from VIVI.utils.decorators import (ActualAdminCB, AdminActual,
+from VelionaMusicBot import app
+from VelionaMusicBot.core.call import VIV
+from VelionaMusicBot.misc import db
+from VelionaMusicBot.utils.database import get_authuser_names, get_cmode
+from VelionaMusicBot.utils.decorators import (ActualAdminCB, AdminActual,
                                          language)
-from VIVI.utils.formatters import alpha_to_int
+from VelionaMusicBot.utils.formatters import alpha_to_int
 
 ### Multi-Lang Commands
 RELOAD_COMMAND = get_command("RELOAD_COMMAND")
