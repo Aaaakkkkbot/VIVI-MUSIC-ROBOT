@@ -2,15 +2,15 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import PLAYLIST_IMG_URL, PRIVATE_BOT_MODE, adminlist
 from strings import get_string
-from VIVI import YouTube, app
-from VIVI.misc import SUDOERS
-from VIVI.utils.database import (get_cmode, get_lang,
+from VelionaMusicBot import YouTube, app
+from VelionaMusicBot.misc import SUDOERS
+from VelionaMusicBot.utils.database import (get_cmode, get_lang,
                                        get_playmode, get_playtype,
                                        is_active_chat,
                                        is_commanddelete_on,
                                        is_served_private_chat)
-from VIVI.utils.database.memorydatabase import is_maintenance
-from VIVI.utils.inline.playlist import botplaylist_markup
+from VelionaMusicBot.utils.database.memorydatabase import is_maintenance
+from VelionaMusicBot.utils.inline.playlist import botplaylist_markup
 
 
 def PlayWrapper(command):
