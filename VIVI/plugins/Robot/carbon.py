@@ -1,7 +1,7 @@
 from pyrogram.types import Message
 from pyrogram import filters
-from VIVI import app, aiohttpsession as aiosession
-from VIVI.utils.errors import capture_err
+from VelionaMusicBot import app, aiohttpsession as aiosession
+from VelionaMusicBot.utils.errors import capture_err
 from asyncio import gather
 from io import BytesIO
 
