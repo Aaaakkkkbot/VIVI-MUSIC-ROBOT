@@ -3,9 +3,9 @@ from pyrogram.types import Message
 
 import config
 from strings import get_command
-from VIVI import app
-from VIVI.misc import SUDOERS
-from VIVI.utils.database import add_off, add_on
+from VelionaMusicBot import app
+from VelionaMusicBot.misc import SUDOERS
+from VelionaMusicBot.utils.database import add_off, add_on
 from VIVI.utils.decorators.language import language
 
 # Commands
