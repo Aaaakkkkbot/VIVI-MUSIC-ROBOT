@@ -6,7 +6,7 @@ from strings import get_command
 from VelionaMusicBot import app
 from VelionaMusicBot.misc import SUDOERS
 from VelionaMusicBot.utils.database import add_sudo, remove_sudo
-from VIVI.utils.decorators.language import language
+from VelionaMusicBot.utils.decorators.language import language
 
 # Command
 ADDSUDO_COMMAND = get_command("ADDSUDO_COMMAND")
