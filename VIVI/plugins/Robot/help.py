@@ -6,13 +6,13 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 import config
 from config import BANNED_USERS
 from strings import get_command, get_string, helpers
-from VIVI import app
-from VIVI.misc import SUDOERS
-from VIVI.utils import help_pannel
-from VIVI.utils.database import get_lang, is_commanddelete_on
-from VIVI.utils.decorators.language import (LanguageStart,
+from VelionaMusicBot import app
+from VelionaMusicBot.misc import SUDOERS
+from VelionaMusicBot.utils import help_pannel
+from VelionaMusicBot.utils.database import get_lang, is_commanddelete_on
+from VelionaMusicBot.utils.decorators.language import (LanguageStart,
                                                   languageCB)
-from VIVI.utils.inline.help import (help_back_markup,
+from VelionaMusicBot.utils.inline.help import (help_back_markup,
                                           private_help_panel)
 
 ### Command
