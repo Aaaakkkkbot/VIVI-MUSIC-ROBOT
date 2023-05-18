@@ -5,7 +5,7 @@ import heroku3
 from pyrogram import filters
 
 import config
-from VIVI.core.mongo import pymongodb
+from VelionaMusicBot.core.mongo import pymongodb
 
 from .logging import LOGGER
 
