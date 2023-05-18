@@ -1,6 +1,6 @@
 from config import LOG, LOG_GROUP_ID, MUSIC_BOT_NAME
-from VIVI import app
-from VIVI.utils.database import is_on_off
+from VelionaMusicBot import app
+from VelionaMusicBot.utils.database import is_on_off
 
 
 async def play_logs(message, streamtype):
