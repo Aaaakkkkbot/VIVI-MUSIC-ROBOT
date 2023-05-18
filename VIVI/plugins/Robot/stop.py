@@ -3,10 +3,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from VIVI import app
-from VIVI.core.call import VIV
-from VIVI.utils.database import set_loop
-from VIVI.utils.decorators import AdminRightsCheck
+from VelionaMusicBot import app
+from VelionaMusicBot.core.call import VIV
+from VelionaMusicBot.utils.database import set_loop
+from VelionaMusicBot.utils.decorators import AdminRightsCheck
 
 # Commands
 STOP_COMMAND = get_command("STOP_COMMAND")
