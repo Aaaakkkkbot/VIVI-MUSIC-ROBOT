@@ -11,10 +11,10 @@ from pyrogram.types import (InlineKeyboardButton,
 from config import (BANNED_USERS, SONG_DOWNLOAD_DURATION,
                     SONG_DOWNLOAD_DURATION_LIMIT)
 from strings import get_command
-from VIVI import YouTube, app
-from VIVI.utils.decorators.language import language, languageCB
-from VIVI.utils.formatters import convert_bytes
-from VIVI.utils.inline.song import song_markup
+from VelionaMusicBot import YouTube, app
+from VelionaMusicBot.utils.decorators.language import language, languageCB
+from VelionaMusicBot.utils.formatters import convert_bytes
+from VelionaMusicBot.utils.inline.song import song_markup
 
 # Command
 SONG_COMMAND = get_command("SONG_COMMAND")
