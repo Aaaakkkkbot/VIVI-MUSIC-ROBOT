@@ -1,8 +1,8 @@
-from VIVI.core.bot import VIVIBot
-from VIVI.core.dir import dirr
-from VIVI.core.git import git
-from VIVI.core.userbot import Userbot
-from VIVI.misc import dbb, heroku, sudo
+from VelionaMusicBot.core.bot import VIVIBot
+from VelionaMusicBot.core.dir import dirr
+from VelionaMusicBot.core.git import git
+from VelionaMusicBot.core.userbot import Userbot
+from VelionaMusicBot.misc import dbb, heroku, sudo
 from aiohttp import ClientSession
 
 from .logging import LOGGER
