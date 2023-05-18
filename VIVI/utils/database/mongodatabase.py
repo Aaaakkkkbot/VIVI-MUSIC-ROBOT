@@ -1,6 +1,6 @@
 from typing import Dict, List, Union
 
-from VIVI.core.mongo import mongodb
+from VelionaMusicBot.core.mongo import mongodb
 
 queriesdb = mongodb.queries
 userdb = mongodb.userstats
