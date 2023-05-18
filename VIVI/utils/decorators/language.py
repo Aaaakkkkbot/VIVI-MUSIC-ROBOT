@@ -1,6 +1,6 @@
 from strings import get_string
-from VIVI.misc import SUDOERS
-from VIVI.utils.database import (get_lang, is_commanddelete_on,
+from VelionaMusicBot.misc import SUDOERS
+from VelionaMusicBot.utils.database import (get_lang, is_commanddelete_on,
                                        is_maintenance)
 
 
