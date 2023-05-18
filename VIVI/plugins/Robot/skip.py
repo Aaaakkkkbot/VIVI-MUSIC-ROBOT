@@ -4,15 +4,15 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 import config
 from config import BANNED_USERS
 from strings import get_command
-from VIVI import YouTube, app
-from VIVI.core.call import VIV
-from VIVI.misc import db
-from VIVI.utils.database import get_loop
-from VIVI.utils.decorators import AdminRightsCheck
-from VIVI.utils.inline.play import (stream_markup,
+from VelionaMusicBot import YouTube, app
+from VelionaMusicBot.core.call import VIV
+from VelionaMusicBot.misc import db
+from VelionaMusicBot.utils.database import get_loop
+from VelionaMusicBot.utils.decorators import AdminRightsCheck
+from VelionaMusicBot.utils.inline.play import (stream_markup,
                                           telegram_markup)
-from VIVI.utils.stream.autoclear import auto_clean
-from VIVI.utils.thumbnails import gen_thumb
+from VelionaMusicBot.utils.stream.autoclear import auto_clean
+from VelionaMusicBot.utils.thumbnails import gen_thumb
 
 # Commands
 SKIP_COMMAND = get_command("SKIP_COMMAND")
