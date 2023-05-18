@@ -12,11 +12,11 @@ from pytgcalls.__version__ import __version__ as pytgver
 import config
 from config import BANNED_USERS, MUSIC_BOT_NAME
 from strings import get_command
-from VIVI import YouTube, app
-from VIVI.core.userbot import assistants
-from VIVI.misc import SUDOERS, pymongodb
-from VIVI.plugins import ALL_MODULES
-from VIVI.utils.database import (get_global_tops,
+from VelionaMusicBot import YouTube, app
+from VelionaMusicBot.core.userbot import assistants
+from VelionaMusicBot.misc import SUDOERS, pymongodb
+from VelionaMusicBot.plugins import ALL_MODULES
+from VelionaMusicBot.utils.database import (get_global_tops,
                                        get_particulars, get_queries,
                                        get_served_chats,
                                        get_served_users, get_sudoers,
@@ -180,7 +180,7 @@ async def top_users_ten(client, CallbackQuery: CallbackQuery, _):
                 details = stats.get(items)
                 title = (details["title"][:35]).title()
                 if items == "telegram":
-                    msg += f"🍒 [ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/WoFBotsSupport) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                    msg += f" [ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/BotsXSupport) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                 else:
                     msg += f"📌 [{title}](https://www.youtube.com/watch?v={items}) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
 
