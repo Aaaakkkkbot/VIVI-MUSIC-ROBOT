@@ -2,12 +2,12 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from strings import get_command, get_string
-from VIVI import app
-from VIVI.misc import SUDOERS
-from VIVI.utils.database import (get_lang, is_maintenance,
+from VelionaMusicBot import app
+from VelionaMusicBot.misc import SUDOERS
+from VelionaMusicBot.utils.database import (get_lang, is_maintenance,
                                        maintenance_off,
                                        maintenance_on)
-from VIVI.utils.decorators.language import language
+from VelionaMusicBot.utils.decorators.language import language
 
 # Commands
 MAINTENANCE_COMMAND = get_command("MAINTENANCE_COMMAND")
